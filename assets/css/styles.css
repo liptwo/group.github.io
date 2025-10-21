@@ -245,6 +245,8 @@ img {
   color: var(--white-color);
   clip-path: circle(8px at 88% 9%);
   transition: clip-path .5s ease-in-out;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .info__name {
